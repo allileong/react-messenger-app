@@ -1,0 +1,35 @@
+{
+  "name": "messenger-app",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "server": "node src/server/server.js",
+    "client": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "test": "jest"
+  },
+  "author": "Allison Leong",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.10.0",
+    "file-loader": "^3.0.1",
+    "jest": "^24.1.0",
+    "react-hot-loader": "^4.7.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-router-dom": "^4.3.1",
+    "socket.io": "^2.2.0"
+  }
+}

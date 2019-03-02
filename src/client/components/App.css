@@ -1,0 +1,14 @@
+.App {
+  font-family: Verdana;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.Router {
+  height: 100%;
+}
+
+.Route {
+  height: 100%;
+}
